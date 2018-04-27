@@ -1,0 +1,93 @@
+*,*:after {
+  box-sizing: border-box;
+}
+* {
+  margin:0 auto;
+  padding: 0;
+}
+
+p {
+   font-family: Lato;
+ }
+h2 {
+  font-family: Lato;
+text-transform: capitalize;
+  border-bottom:1px solid #ddd;
+  padding:10px 15px;
+  font-size:18px;
+  font-weight:bold;
+}
+.add-product-wrap {
+  position: fixed;
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.add-product-block {
+  overflow: hidden;
+  width:360px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+  z-index:99;
+}
+.form-control {
+  font-family: Lato;
+  font-size:14px;
+  border: 1px solid #ddd;
+  color: #555;
+  width:100%;
+  height:34px;
+  line-height:40px;
+  padding:0 15px;
+}
+.form-horizontal {
+  overflow: hidden;
+  padding: 15px;
+}
+label {
+  font-size:14px;
+  font-weight:bold;
+  margin:0 0 5px;
+  font-family: Lato;
+  display: block;
+}
+
+.form-group {
+  width:100%;
+  margin:0 0 10px;
+}
+
+.btn {
+  font-size:13px;
+  font-weight: 400;
+  border-radius: 0;
+  border: none;
+  padding:7px 15px;
+  float: left;
+  margin:0 10px 0 0;
+  cursor: pointer;
+}
+
+.btn-success {
+  background: #159859;
+  color: #fff;
+}
+.card-footer {
+  overflow: hidden;
+  padding: 15px;
+  border-top:1px solid #ddd;
+}
+.btn-primary {
+  background: #007CB9;
+  color: #fff;
+}
+.btn-danger {
+  background: #FF3C3C;
+  color: #fff;
+}
