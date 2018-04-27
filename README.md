@@ -1,6 +1,14 @@
+
 # angular-shcqsm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+
+## How to start
+
+Steps:
+1> Clone this project
+2> Install npm
+3> Run the project
 
 ## Development server
 
